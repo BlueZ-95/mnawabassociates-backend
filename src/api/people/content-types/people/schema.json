@@ -4,32 +4,34 @@
   "info": {
     "singularName": "people",
     "pluralName": "peoples",
-    "displayName": "People"
+    "displayName": "People",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Designation": {
+    "designation": {
       "type": "string"
     },
-    "Education": {
+    "education": {
       "type": "string"
     },
-    "Image": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Description": {
+    "description": {
       "type": "text"
     }
   }

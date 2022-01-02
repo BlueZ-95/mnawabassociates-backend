@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "company_profiles",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "Projects",
+    "singularName": "company-profile",
+    "pluralName": "company-profiles",
+    "displayName": "CompanyProfile",
     "description": ""
   },
   "options": {
@@ -12,35 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "year": {
-      "type": "string"
-    },
-    "type": {
-      "type": "string"
-    },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "location": {
-      "type": "string"
-    },
-    "area": {
-      "type": "string"
-    },
     "description": {
       "type": "text"
     },
-    "mainimage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -49,6 +24,27 @@
         "files",
         "videos"
       ]
+    },
+    "year": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "secondaryimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

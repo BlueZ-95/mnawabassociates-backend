@@ -21,10 +21,7 @@
     "Type": {
       "type": "string"
     },
-    "Description": {
-      "type": "richtext"
-    },
-    "Image": {
+    "Images": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -39,6 +36,18 @@
     },
     "Area": {
       "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "MainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

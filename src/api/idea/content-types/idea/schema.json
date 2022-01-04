@@ -4,7 +4,8 @@
   "info": {
     "singularName": "idea",
     "pluralName": "ideas",
-    "displayName": "Idea"
+    "displayName": "Ideas",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,13 +16,14 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"

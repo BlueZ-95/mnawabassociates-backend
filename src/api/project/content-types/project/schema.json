@@ -37,9 +37,6 @@
     "area": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "mainimage": {
       "type": "media",
       "multiple": false,
@@ -49,6 +46,15 @@
         "files",
         "videos"
       ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "youtubelinks": {
+      "type": "string"
     }
   }
 }
